@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roar Lion Bikes</title>
+    <!-- this is eric meyer css reset -->
+    <link rel="stylesheet" href="css/css-reset.css">
+    <!-- this is my style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- font styles from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <!-- icon styles from font awsome -->
+    <script src="https://kit.fontawesome.com/19104faf9b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <a href="index.html">
+                <div class="logo">
+                    <img src="images/logo-roar-bikes.svg" alt="logo of roar bikes">
+                </div>
+            </a>
+            <nav>
+                <div class="navbutton">
+                    <a href="#">Book Online</a>
+                    <div class="dropdown">
+                        <div class="navbutton"><a href="#">Onsite Service</a></div>
+                        <div class="navbutton"><a href="#">Parts Delivery</a></div>
+                        <div class="navbutton"><a href="#">Request Callback</a></div>
+                    </div>
+                </div>
+                <div class="navbutton">
+                    <a href="#">About</a>
+                </div>
+                <div class="navbutton">
+                    <a href="#">Contact</a>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class="main2">
+            <h1>Contact Us</h1>
+            <p>Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you
+                within a matter of hours to help you.</p>
+
+            <form action="" method="post">
+                <div class="inputwrapper">
+                    <label for="name" class="newline">First Name</label>
+                    <input type="text" name="name" id="name" placeholder="First Name">
+                </div>
+                <div class="inputwrapper">
+                    <label for="eamil" class="newline">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                </div>
+                <div class="inputwrapper">
+                    <textarea name="textarea" id="textarea" cols="100" rows="5"
+                        placeholder="Tell us what you think"></textarea>
+                </div>
+                <div class="inputwrapper">
+                    <input type="checkbox" name="subcribe" id="subscribe" checked>
+                    <label for="subscribe">Sign for our news letter</label>
+                </div>
+                <div class="inputwrapper">
+                    <p>How would you like to be contacted?</p>
+                    <input type="radio" name="contact-pref" id="byphone">
+                    <label for="byphone" class="margin-right-a">Phone</label>
+                    <input type="radio" name="contact-pref" id="byemail">
+                    <label for="byemail" class="margin-right-a">Mail</label>
+                </div>
+                <div class="inputwrapper">
+                    <select name="country" id="country">
+                        <option value="Not-choosen">Choose Your Gender</option>
+                        <option value="India">Male</option>
+                        <option value="Usa">Female</option>
+                        <option value="China">LGTV</option>
+                        <option value="China">Attack Helicopter</option>
+                        <option value="China">Noob</option>
+                        <option value="China">Others</option>
+                    </select>
+                </div>
+                <div class="inputwrapper">
+                    <input type="submit" value="Submit" class="button">
+                </div>
+            </form>
+        </div>
+
+
+        <!-- <div class="cards">
+            <div class="card1">
+                <a href="#">
+                    <i class="fa-solid fa-motorcycle"></i>
+                    <h2>Book Online</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa aspernatur minima adipisci nihil
+                        perspiciatis itaque?</p>
+                </a>
+            </div>
+            <div class="card2">
+                <a href="#">
+                    <i class="fa-solid fa-gear"></i>
+                    <h2>Service Types</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quibusdam, rem mollitia ullam
+                        tempora
+                        cumque.</p>
+                </a>
+            </div>
+            <div class="card3">
+                <a href="#">
+                    <i class="fa-solid fa-phone"></i>
+                    <h2>Call For Advice</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam ratione nisi repudiandae libero
+                        qui
+                        neque.</p>
+                </a>
+            </div>
+        </div> -->
+        <div class="testimonials">
+            <div class="tbox">
+                <p>I would like to personally thank you for your outstanding product. You guys rock! It's all good. I
+                    can't say enough about Roar Cycles.
+                </p>
+                <p>- Tammara I</p>
+            </div>
+            <div class="tbox">
+                <p>Roar Cycles is the most valuable business resource we have EVER purchased. I will let my mum know
+                    about this, she could really make use of Roar Cycles! Roar Cycles has completely surpassed our
+                    expectations.</p>
+                <p>- Floris V.</p>
+            </div>
+            <div class="tbox">
+                <p>I'm good to go. Roar Cycles is both attractive and highly adaptable. I will refer everyone I know.
+                </p>
+                <p>- Carlin B.</p>
+            </div>
+            <div class="tbox">
+                <p>"Roar Cycles impressed me on multiple levels. I would gladly pay over 600 dollars for Roar Cycles. We
+                    can't understand how we've been living without Roar Cycles.</p>
+                <p>- Eve V.</p>
+            </div>
+            <div class="tbox">
+                <p>I don't know what else to say. Absolutely wonderful! You've saved our business! After using Roar
+                    Cycles my business skyrocketed!</p>
+                <p>- Brier Q.</p>
+            </div>
+        </div>
+        <footer>
+            <div class="footer-left">
+                <p class="footer-links">
+                    <a class="link-1" href="index.html">Home</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">About</a>
+                    <a href="#">Faq</a>
+                    <a href="contact-us.html">Contact</a>
+                </p>
+                <p>Roar Bikes &copy; 2020</p>
+            </div>
+            <div class="footer-right">
+                <div class="social-media">
+                    <a href="https://www.instagram.com/cristiano/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://youtube.com/@NaaAnveshana" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="contact-num">
+                    <i class="fa-solid fa-phone"></i>
+                    <p>+91 9398998767</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
